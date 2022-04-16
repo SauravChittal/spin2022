@@ -25,7 +25,7 @@ jobs:
       - name: Install pre-requisite libraries
         run:  |
           sudo apt update
-          sudo apt-get install -y python3
+          sudo apt-get install -y python3 python3-pygit
 
       # create a demo website
       - name: Create HTML file
